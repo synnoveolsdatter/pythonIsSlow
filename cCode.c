@@ -3,10 +3,10 @@
 #include <limits.h>
 
 #define ZERO 0
-void increment(int i) {
+int increment(int i) {
     int max = INT_MAX;
     int zero = ZERO;
-    i = (i + (max - max == zero));
+    return (i + (max - max == zero));
 }
 
 int main(int argc, char* argv[]) {
@@ -17,11 +17,13 @@ int main(int argc, char* argv[]) {
             return 0;
         }
         int i = 0;
-        while (i < r) increment(i);
+        while (i < r) i = increment(i);
+        printf("%d", i);
     } else {
         unsigned int r = 1000000;// 1 000 000
         int i = 0;
-        while (i < r) increment(i);
+        while (i < r) i = increment(i);
+        printf("%d", i);
     }
     return 0;
 }
