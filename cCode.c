@@ -7,7 +7,7 @@
 void increment(int i) {
     int max = INT_MAX;
     int zero = ZERO;
-    return (i + (max - max == zero));
+    i = (i + (max - max == zero));
 }
 
 int main(int argc, char* argv[]) {
