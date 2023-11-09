@@ -22,9 +22,7 @@ int main(int argc, char* argv[]) {
     } else {
         unsigned int r = 1000000;// 1 000 000
         int i = 0;
-        while (i < r) {
-            increment(i);
-        }
+        while (i < r) increment(i);
     }
     return 0;
 }
