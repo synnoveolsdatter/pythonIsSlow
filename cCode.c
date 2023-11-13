@@ -17,13 +17,17 @@ int main(int argc, char* argv[]) {
             return 0;
         }
         int i = 0;
-        while (i < r) i = increment(i);
-        printf("%d", i);
+        while (i < r) {
+            i = increment(i);
+            printf("%d ", i);
+        }
     } else {
         unsigned int r = 1000000;// 1 000 000
         int i = 0;
-        while (i < r) i = increment(i);
-        printf("%d", i);
+        while (i < r) {
+            i = increment(i);
+            printf("%d ", i);
+        }
     }
     return 0;
 }

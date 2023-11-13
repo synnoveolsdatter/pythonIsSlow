@@ -7,19 +7,21 @@ def increment(i):
     return (i + int(maximum - maximum == zero))
 
 def main():
-    if (sys.argc > 1) {
+    print("argc: " + str(argc) + "\n")
+    for arg in sys.argv:
+        print("arg: " + arg + "\n")
+    if (sys.argc > 1):
         r = sys.argv[1]
         if r < 0:
             sys.exit()
         i = 0
         while i < r:
             increment(i)
-        print(i)
-
+            print(str(i) + " ")
     else:
-        r = 1000000# 1 000 000
+        r = 1000000 # 1 000 000
         i = 0
         while i < r:
-            increment(i)
-        print(i)
+            i = increment(i)
+            print(str(i) + " ")
 
