@@ -6,4 +6,6 @@ And I wanted to put it up to the test against Python!
 
 Good luck Python (I know you'll need it) and I'll put the results up here after I run the test
 
-
+| Time (System) | Language |
+| ----------- | ----------- |
+| 0.02 | C |

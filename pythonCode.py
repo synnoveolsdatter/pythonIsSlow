@@ -24,4 +24,3 @@ def main():
         while i < r:
             i = increment(i)
             print(str(i) + " ")
-

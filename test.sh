@@ -7,6 +7,7 @@ echo ""
 echo "Timing C code"
 cResult=time ./c 1000000
 echo ""
+echo ""
 echo "Timing Python code"
 pythonResult=time python3 pythonCode.py 1000000
 echo ""
